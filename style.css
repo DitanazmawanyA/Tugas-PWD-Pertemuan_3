@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    background-color: lightyellow;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+aside {
+    background-color: lightpink;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+.gambar-utama {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gambar-profil {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.caption {
+    text-align: center;
+    color: #527c96;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+header {
+    background: linear-gradient(to right, #527c96, #a7d0e2);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.teks-atas {
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: white;
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.deskripsi-header {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.tombol-header {
+    display: inline-block;
+    background-color: white;
+    color: #527c96;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tombol-header:hover {
+    background-color: #e0edf4;
+}
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    display:block;
+}
